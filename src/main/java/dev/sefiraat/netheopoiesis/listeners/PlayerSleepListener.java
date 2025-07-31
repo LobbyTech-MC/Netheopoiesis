@@ -1,9 +1,8 @@
 package dev.sefiraat.netheopoiesis.listeners;
 
-import dev.sefiraat.netheopoiesis.Purification;
-import dev.sefiraat.netheopoiesis.utils.TimePeriod;
-import dev.sefiraat.netheopoiesis.utils.WorldUtils;
-import io.github.thebusybiscuit.slimefun4.utils.tags.SlimefunTag;
+import javax.annotation.Nonnull;
+import javax.annotation.ParametersAreNonnullByDefault;
+
 import org.bukkit.ChatColor;
 import org.bukkit.Tag;
 import org.bukkit.World;
@@ -15,8 +14,9 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 
-import javax.annotation.Nonnull;
-import javax.annotation.ParametersAreNonnullByDefault;
+import dev.sefiraat.netheopoiesis.Purification;
+import dev.sefiraat.netheopoiesis.utils.TimePeriod;
+import dev.sefiraat.netheopoiesis.utils.WorldUtils;
 
 /**
  * The purpose of this listener is to allow players to sleep and set their respawn point whilst

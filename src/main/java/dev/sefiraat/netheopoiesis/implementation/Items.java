@@ -1,5 +1,13 @@
 package dev.sefiraat.netheopoiesis.implementation;
 
+import java.util.Set;
+
+import org.bukkit.Material;
+import org.bukkit.block.Biome;
+import org.bukkit.entity.EntityType;
+import org.bukkit.entity.Fox;
+import org.bukkit.inventory.ItemStack;
+
 import dev.sefiraat.netheopoiesis.Netheopoiesis;
 import dev.sefiraat.netheopoiesis.api.RecipeTypes;
 import dev.sefiraat.netheopoiesis.api.items.BeaconSiphoningBlock;
@@ -12,13 +20,13 @@ import dev.sefiraat.netheopoiesis.api.items.GenericTickingSeed;
 import dev.sefiraat.netheopoiesis.api.items.HarvestableSeed;
 import dev.sefiraat.netheopoiesis.api.items.NetherCrux;
 import dev.sefiraat.netheopoiesis.api.plant.Growth;
+import dev.sefiraat.netheopoiesis.api.plant.GrowthStages;
+import dev.sefiraat.netheopoiesis.api.plant.Placements;
 import dev.sefiraat.netheopoiesis.api.plant.netheos.NetheoBalls;
 import dev.sefiraat.netheopoiesis.implementation.blocks.NetherBeacon;
 import dev.sefiraat.netheopoiesis.implementation.flora.CrystallineCrux;
 import dev.sefiraat.netheopoiesis.implementation.flora.PurificationSeed;
 import dev.sefiraat.netheopoiesis.implementation.flora.WetSeed;
-import dev.sefiraat.netheopoiesis.api.plant.GrowthStages;
-import dev.sefiraat.netheopoiesis.api.plant.Placements;
 import dev.sefiraat.netheopoiesis.implementation.tools.Analyser;
 import dev.sefiraat.netheopoiesis.implementation.tools.EnderCake;
 import dev.sefiraat.netheopoiesis.implementation.tools.HarvestingTool;
@@ -30,13 +38,6 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.implementation.items.blocks.UnplaceableBlock;
-import org.bukkit.Material;
-import org.bukkit.block.Biome;
-import org.bukkit.entity.EntityType;
-import org.bukkit.entity.Fox;
-import org.bukkit.inventory.ItemStack;
-
-import java.util.Set;
 
 /**
  * Final class used to store and initialise the {@link SlimefunItem}s used in the addon

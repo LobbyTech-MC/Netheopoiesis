@@ -1,11 +1,12 @@
 package dev.sefiraat.netheopoiesis.api.plant.netheos;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
-import org.bukkit.inventory.ItemStack;
-
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
+
+import org.bukkit.inventory.ItemStack;
+
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
 
 public class Trade {
 

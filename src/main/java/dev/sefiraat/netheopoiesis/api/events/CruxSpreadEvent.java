@@ -1,14 +1,15 @@
 package dev.sefiraat.netheopoiesis.api.events;
 
-import dev.sefiraat.netheopoiesis.api.items.NetherCrux;
-import dev.sefiraat.netheopoiesis.api.items.NetherSeed;
+import javax.annotation.Nonnull;
+import javax.annotation.ParametersAreNonnullByDefault;
+
 import org.bukkit.block.Block;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
-import javax.annotation.Nonnull;
-import javax.annotation.ParametersAreNonnullByDefault;
+import dev.sefiraat.netheopoiesis.api.items.NetherCrux;
+import dev.sefiraat.netheopoiesis.api.items.NetherSeed;
 
 /**
  * This event is fired when a Crux is due to spread to another block

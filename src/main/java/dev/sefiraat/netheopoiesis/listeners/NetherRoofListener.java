@@ -1,14 +1,15 @@
 package dev.sefiraat.netheopoiesis.listeners;
 
-import dev.sefiraat.netheopoiesis.utils.Keys;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
+import javax.annotation.Nonnull;
+
 import org.bukkit.entity.FallingBlock;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityChangeBlockEvent;
 
-import javax.annotation.Nonnull;
+import dev.sefiraat.netheopoiesis.utils.Keys;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
 
 /**
  * The NetherBeacon will 'break' blocks and drop them as falling blocks for the visual. As we do not want the

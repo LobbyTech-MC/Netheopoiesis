@@ -1,19 +1,22 @@
 package dev.sefiraat.netheopoiesis.api.interfaces;
 
+import java.util.Set;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import javax.annotation.ParametersAreNonnullByDefault;
+
+import org.bukkit.Location;
+import org.bukkit.inventory.ItemStack;
+
 import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
+
 import dev.sefiraat.netheopoiesis.api.items.NetherCrux;
 import dev.sefiraat.netheopoiesis.api.items.NetherSeed;
 import dev.sefiraat.netheopoiesis.api.plant.GrowthStages;
 import dev.sefiraat.netheopoiesis.utils.Skulls;
 import dev.sefiraat.netheopoiesis.utils.Theme;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import org.bukkit.Location;
-import org.bukkit.inventory.ItemStack;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-import javax.annotation.ParametersAreNonnullByDefault;
-import java.util.Set;
 
 /**
  * This interface represents a plant in the Nether, and it's behavior as it ticks and grows

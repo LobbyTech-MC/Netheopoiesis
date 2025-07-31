@@ -1,7 +1,7 @@
 package dev.sefiraat.netheopoiesis.implementation.tasks;
 
-import dev.sefiraat.netheopoiesis.Purification;
-import dev.sefiraat.netheopoiesis.utils.ParticleUtils;
+import javax.annotation.Nonnull;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Color;
 import org.bukkit.Particle;
@@ -10,7 +10,8 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import javax.annotation.Nonnull;
+import dev.sefiraat.netheopoiesis.Purification;
+import dev.sefiraat.netheopoiesis.utils.ParticleUtils;
 
 /**
  * This Runnable is used to;

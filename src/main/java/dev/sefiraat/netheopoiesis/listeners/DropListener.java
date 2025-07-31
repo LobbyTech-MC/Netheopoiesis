@@ -1,6 +1,11 @@
 package dev.sefiraat.netheopoiesis.listeners;
 
-import dev.sefiraat.netheopoiesis.api.RecipeTypes;
+import java.util.EnumMap;
+import java.util.Map;
+import java.util.concurrent.ThreadLocalRandom;
+
+import javax.annotation.Nonnull;
+
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
@@ -9,10 +14,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
 
-import javax.annotation.Nonnull;
-import java.util.EnumMap;
-import java.util.Map;
-import java.util.concurrent.ThreadLocalRandom;
+import dev.sefiraat.netheopoiesis.api.RecipeTypes;
 
 /**
  * The purpose of this listener is to drop registered items when breaking the specified vanilla

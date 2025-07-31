@@ -1,8 +1,9 @@
 package net.guizhanss.netheopoiesis.utils;
 
-import javax.annotation.Nonnull;
 import java.util.HashMap;
 import java.util.Map;
+
+import javax.annotation.Nonnull;
 
 public final class NetheoBallUtils {
 

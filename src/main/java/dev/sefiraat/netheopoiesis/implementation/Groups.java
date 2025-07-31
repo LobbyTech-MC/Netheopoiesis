@@ -1,5 +1,8 @@
 package dev.sefiraat.netheopoiesis.implementation;
 
+import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+
 import dev.sefiraat.netheopoiesis.Netheopoiesis;
 import dev.sefiraat.netheopoiesis.implementation.groups.DiscoveriesFlexGroup;
 import dev.sefiraat.netheopoiesis.implementation.groups.DummyItemGroup;
@@ -9,8 +12,6 @@ import dev.sefiraat.netheopoiesis.implementation.groups.TradesFlexGroup;
 import dev.sefiraat.netheopoiesis.utils.Keys;
 import dev.sefiraat.netheopoiesis.utils.Theme;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import org.bukkit.Material;
-import org.bukkit.inventory.ItemStack;
 
 /**
  * Final class used to store the ItemGroups used in this addon

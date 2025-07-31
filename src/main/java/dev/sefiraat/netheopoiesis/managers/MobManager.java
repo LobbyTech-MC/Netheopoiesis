@@ -1,10 +1,16 @@
 package dev.sefiraat.netheopoiesis.managers;
 
-import com.google.common.base.Preconditions;
-import dev.sefiraat.netheopoiesis.Netheopoiesis;
-import dev.sefiraat.netheopoiesis.api.mobs.MobCap;
-import dev.sefiraat.netheopoiesis.api.mobs.MobCapType;
-import dev.sefiraat.netheopoiesis.implementation.tasks.MobRemovalTask;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.EnumMap;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import javax.annotation.ParametersAreNonnullByDefault;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.Entity;
@@ -12,15 +18,12 @@ import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
 import org.jetbrains.annotations.Unmodifiable;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-import javax.annotation.ParametersAreNonnullByDefault;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.EnumMap;
-import java.util.List;
-import java.util.Map;
-import java.util.UUID;
+import com.google.common.base.Preconditions;
+
+import dev.sefiraat.netheopoiesis.Netheopoiesis;
+import dev.sefiraat.netheopoiesis.api.mobs.MobCap;
+import dev.sefiraat.netheopoiesis.api.mobs.MobCapType;
+import dev.sefiraat.netheopoiesis.implementation.tasks.MobRemovalTask;
 
 /**
  * The MomManager is used to store all the {@link MobCap}s used by this addon with basic methods for

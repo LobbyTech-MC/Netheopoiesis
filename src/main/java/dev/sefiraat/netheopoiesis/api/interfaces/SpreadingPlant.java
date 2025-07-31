@@ -1,12 +1,14 @@
 package dev.sefiraat.netheopoiesis.api.interfaces;
 
-import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
-import dev.sefiraat.netheopoiesis.api.items.CruxSpreadingSeed;
-import dev.sefiraat.netheopoiesis.api.items.NetherSeed;
+import javax.annotation.ParametersAreNonnullByDefault;
+
 import org.bukkit.Location;
 import org.bukkit.block.Block;
 
-import javax.annotation.ParametersAreNonnullByDefault;
+import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
+
+import dev.sefiraat.netheopoiesis.api.items.CruxSpreadingSeed;
+import dev.sefiraat.netheopoiesis.api.items.NetherSeed;
 
 /**
  * This interface represents a plant that spreads out into BlockStorage

@@ -1,9 +1,10 @@
 package dev.sefiraat.netheopoiesis.api.interfaces;
 
-import dev.sefiraat.netheopoiesis.Purification;
+import javax.annotation.Nonnull;
+
 import org.bukkit.block.Block;
 
-import javax.annotation.Nonnull;
+import dev.sefiraat.netheopoiesis.Purification;
 
 /**
  * This interface is used to describe an object that adds a purification value to the Nether

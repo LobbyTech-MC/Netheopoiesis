@@ -1,6 +1,7 @@
 package dev.sefiraat.netheopoiesis.listeners;
 
-import dev.sefiraat.netheopoiesis.managers.MobManager;
+import javax.annotation.Nonnull;
+
 import org.bukkit.Material;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
@@ -11,7 +12,7 @@ import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.event.world.ChunkUnloadEvent;
 import org.bukkit.inventory.ItemStack;
 
-import javax.annotation.Nonnull;
+import dev.sefiraat.netheopoiesis.managers.MobManager;
 
 public class ManagedMobListener implements Listener {
 

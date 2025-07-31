@@ -1,15 +1,17 @@
 package dev.sefiraat.netheopoiesis.api.mobs;
 
-import dev.sefiraat.netheopoiesis.Netheopoiesis;
-import org.bukkit.Bukkit;
-import org.bukkit.entity.Entity;
-import org.jetbrains.annotations.Unmodifiable;
-
-import javax.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.UUID;
+
+import javax.annotation.Nonnull;
+
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Entity;
+import org.jetbrains.annotations.Unmodifiable;
+
+import dev.sefiraat.netheopoiesis.Netheopoiesis;
 
 public class MobCap {
 

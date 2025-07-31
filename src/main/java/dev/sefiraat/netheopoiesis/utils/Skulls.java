@@ -1,10 +1,11 @@
 package dev.sefiraat.netheopoiesis.utils;
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerHead;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerSkin;
+import javax.annotation.Nonnull;
+
 import org.bukkit.inventory.ItemStack;
 
-import javax.annotation.Nonnull;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerHead;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerSkin;
 
 /**
  * Stores the hashes for the skulls used in the addon with Methods for generating ItemStacks/Skins

@@ -1,11 +1,10 @@
 package dev.sefiraat.netheopoiesis.listeners;
 
-import dev.sefiraat.netheopoiesis.Purification;
-import dev.sefiraat.netheopoiesis.api.mobs.MobCapType;
-import dev.sefiraat.netheopoiesis.managers.MobManager;
-import dev.sefiraat.netheopoiesis.utils.TimePeriod;
-import dev.sefiraat.netheopoiesis.utils.WorldUtils;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.RandomizedSet;
+import java.util.EnumMap;
+import java.util.Map;
+
+import javax.annotation.Nonnull;
+
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.entity.Entity;
@@ -18,9 +17,12 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntitySpawnEvent;
 
-import javax.annotation.Nonnull;
-import java.util.EnumMap;
-import java.util.Map;
+import dev.sefiraat.netheopoiesis.Purification;
+import dev.sefiraat.netheopoiesis.api.mobs.MobCapType;
+import dev.sefiraat.netheopoiesis.managers.MobManager;
+import dev.sefiraat.netheopoiesis.utils.TimePeriod;
+import dev.sefiraat.netheopoiesis.utils.WorldUtils;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.RandomizedSet;
 
 /**
  * The purpose of this listener is to stop traditional Nether mob spawns when the location is above a specific

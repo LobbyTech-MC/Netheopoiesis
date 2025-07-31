@@ -1,17 +1,18 @@
 package dev.sefiraat.netheopoiesis.listeners;
 
-import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
-import dev.sefiraat.netheopoiesis.api.items.NetherCrux;
-import dev.sefiraat.netheopoiesis.api.items.NetherSeed;
-import dev.sefiraat.netheopoiesis.utils.WorldUtils;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import me.mrCookieSlime.Slimefun.api.BlockStorage;
+import javax.annotation.Nonnull;
+
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityChangeBlockEvent;
 
-import javax.annotation.Nonnull;
+import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
+
+import dev.sefiraat.netheopoiesis.api.items.NetherCrux;
+import dev.sefiraat.netheopoiesis.api.items.NetherSeed;
+import dev.sefiraat.netheopoiesis.utils.WorldUtils;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 
 /**
  * The purpose of this listener is to stop abnormal removal of our Crux blocks.

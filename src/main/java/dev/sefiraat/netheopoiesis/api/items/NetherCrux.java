@@ -1,25 +1,27 @@
 package dev.sefiraat.netheopoiesis.api.items;
 
+import java.util.List;
+
+import javax.annotation.Nonnull;
+import javax.annotation.ParametersAreNonnullByDefault;
+
+import org.bukkit.Material;
+import org.bukkit.block.Block;
+import org.bukkit.event.block.BlockBreakEvent;
+import org.bukkit.inventory.ItemStack;
+
 import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
+
 import dev.sefiraat.netheopoiesis.api.RecipeTypes;
 import dev.sefiraat.netheopoiesis.api.interfaces.PurifyingObject;
-import dev.sefiraat.netheopoiesis.implementation.Stacks;
 import dev.sefiraat.netheopoiesis.api.plant.Placements;
+import dev.sefiraat.netheopoiesis.implementation.Stacks;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
-import org.bukkit.Material;
-import org.bukkit.block.Block;
-import org.bukkit.event.block.BlockBreakEvent;
-import org.bukkit.inventory.ItemStack;
-
-import javax.annotation.Nonnull;
-import javax.annotation.ParametersAreNonnullByDefault;
-import java.util.List;
-import java.util.Set;
 
 /**
  * A NetherCrux is a block that allows NetherPlants to grow on top.

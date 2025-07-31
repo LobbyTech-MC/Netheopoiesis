@@ -1,5 +1,11 @@
 package dev.sefiraat.netheopoiesis.implementation.tools;
 
+import javax.annotation.Nonnull;
+
+import org.bukkit.Chunk;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+
 import dev.sefiraat.netheopoiesis.Purification;
 import dev.sefiraat.netheopoiesis.api.interfaces.PurifyingObject;
 import dev.sefiraat.netheopoiesis.utils.ItemStackUtils;
@@ -9,11 +15,6 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun4.implementation.items.SimpleSlimefunItem;
-import org.bukkit.Chunk;
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
-
-import javax.annotation.Nonnull;
 
 /**
  * The PurificationBarometer will display the player's currently located chunks purification level

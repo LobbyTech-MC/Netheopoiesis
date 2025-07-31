@@ -1,5 +1,14 @@
 package dev.sefiraat.netheopoiesis.implementation.groups;
 
+import javax.annotation.ParametersAreNonnullByDefault;
+
+import org.bukkit.ChatColor;
+import org.bukkit.Material;
+import org.bukkit.NamespacedKey;
+import org.bukkit.Sound;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+
 import dev.sefiraat.netheopoiesis.Purification;
 import dev.sefiraat.netheopoiesis.implementation.Groups;
 import dev.sefiraat.netheopoiesis.utils.ItemStackUtils;
@@ -13,14 +22,6 @@ import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu;
-import org.bukkit.ChatColor;
-import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
-import org.bukkit.Sound;
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
-
-import javax.annotation.ParametersAreNonnullByDefault;
 
 @SuppressWarnings("java:S1192")
 public class PurificationFlexGroup extends FlexItemGroup {

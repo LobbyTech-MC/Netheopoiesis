@@ -1,18 +1,21 @@
 package dev.sefiraat.netheopoiesis.api.mobs;
 
-import com.google.common.base.Preconditions;
-import dev.sefiraat.netheopoiesis.Purification;
-import dev.sefiraat.netheopoiesis.managers.MobManager;
+import java.util.concurrent.ThreadLocalRandom;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-import java.util.concurrent.ThreadLocalRandom;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
+import com.google.common.base.Preconditions;
+
+import dev.sefiraat.netheopoiesis.Purification;
+import dev.sefiraat.netheopoiesis.managers.MobManager;
 
 /**
  * This class is used to describe a mob spawn with it's EntityType, chance and purification level

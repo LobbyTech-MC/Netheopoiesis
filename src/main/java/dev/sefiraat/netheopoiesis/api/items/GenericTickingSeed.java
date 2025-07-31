@@ -1,18 +1,20 @@
 package dev.sefiraat.netheopoiesis.api.items;
 
-import com.google.common.base.Preconditions;
-import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
-import dev.sefiraat.netheopoiesis.Netheopoiesis;
-import dev.sefiraat.netheopoiesis.implementation.GenericTickingMethods;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
-import org.bukkit.Location;
+import java.util.function.Consumer;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import javax.annotation.OverridingMethodsMustInvokeSuper;
 import javax.annotation.ParametersAreNonnullByDefault;
-import java.util.function.Consumer;
+
+import org.bukkit.Location;
+
+import com.google.common.base.Preconditions;
+import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
+
+import dev.sefiraat.netheopoiesis.Netheopoiesis;
+import dev.sefiraat.netheopoiesis.implementation.GenericTickingMethods;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 
 /**
  * This plant will accept the given consumer each tick when fully matured

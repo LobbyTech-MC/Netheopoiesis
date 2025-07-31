@@ -1,8 +1,8 @@
 package dev.sefiraat.netheopoiesis.utils;
 
-import org.bukkit.World;
-
 import javax.annotation.Nonnull;
+
+import org.bukkit.World;
 
 /**
  * This enum holds some common time periods and the start/end time represented in Minecraft's single long value

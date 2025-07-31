@@ -1,8 +1,8 @@
 package dev.sefiraat.netheopoiesis.api.interfaces;
 
-import org.bukkit.inventory.ItemStack;
-
 import javax.annotation.Nullable;
+
+import org.bukkit.inventory.ItemStack;
 
 /**
  * A WorldCrushable item is one that will be destroyed when crushed by a falling block

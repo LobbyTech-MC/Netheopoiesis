@@ -1,13 +1,15 @@
 package dev.sefiraat.netheopoiesis.managers;
 
-import co.aikar.commands.PaperCommandManager;
-import com.google.common.base.Preconditions;
-import dev.sefiraat.netheopoiesis.api.mobs.MobCapType;
-import dev.sefiraat.netheopoiesis.implementation.commands.NetheoCommands;
-import org.bukkit.plugin.Plugin;
-
 import java.util.Arrays;
 import java.util.stream.Collectors;
+
+import org.bukkit.plugin.Plugin;
+
+import com.google.common.base.Preconditions;
+
+import co.aikar.commands.PaperCommandManager;
+import dev.sefiraat.netheopoiesis.api.mobs.MobCapType;
+import dev.sefiraat.netheopoiesis.implementation.commands.NetheoCommands;
 
 public final class DispatchManager extends PaperCommandManager {
 

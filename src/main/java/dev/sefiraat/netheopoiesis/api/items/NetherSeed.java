@@ -1,8 +1,36 @@
 package dev.sefiraat.netheopoiesis.api.items;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.UUID;
+import java.util.concurrent.ThreadLocalRandom;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import javax.annotation.OverridingMethodsMustInvokeSuper;
+import javax.annotation.ParametersAreNonnullByDefault;
+
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
+import org.bukkit.Color;
+import org.bukkit.Location;
+import org.bukkit.Material;
+import org.bukkit.Particle;
+import org.bukkit.block.Block;
+import org.bukkit.block.BlockFace;
+import org.bukkit.entity.HumanEntity;
+import org.bukkit.entity.Player;
+import org.bukkit.event.block.BlockBreakEvent;
+import org.bukkit.event.block.BlockPlaceEvent;
+import org.bukkit.inventory.ItemStack;
+
 import com.google.common.base.Preconditions;
 import com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData;
 import com.xzavier0722.mc.plugin.slimefun4.storage.util.StorageCacheUtils;
+
 import dev.sefiraat.netheopoiesis.Netheopoiesis;
 import dev.sefiraat.netheopoiesis.Registry;
 import dev.sefiraat.netheopoiesis.api.RecipeTypes;
@@ -10,14 +38,14 @@ import dev.sefiraat.netheopoiesis.api.events.PlantBeforeGrowthEvent;
 import dev.sefiraat.netheopoiesis.api.interfaces.NetherPlant;
 import dev.sefiraat.netheopoiesis.api.interfaces.SeedPaste;
 import dev.sefiraat.netheopoiesis.api.plant.Growth;
+import dev.sefiraat.netheopoiesis.api.plant.GrowthStages;
+import dev.sefiraat.netheopoiesis.api.plant.Placements;
 import dev.sefiraat.netheopoiesis.api.plant.breeding.BreedResult;
 import dev.sefiraat.netheopoiesis.api.plant.breeding.BreedResultType;
 import dev.sefiraat.netheopoiesis.api.plant.breeding.BreedingPair;
 import dev.sefiraat.netheopoiesis.api.plant.netheos.FlavourProfile;
 import dev.sefiraat.netheopoiesis.implementation.Groups;
 import dev.sefiraat.netheopoiesis.implementation.netheos.Paste;
-import dev.sefiraat.netheopoiesis.api.plant.GrowthStages;
-import dev.sefiraat.netheopoiesis.api.plant.Placements;
 import dev.sefiraat.netheopoiesis.listeners.CustomPlacementListener;
 import dev.sefiraat.netheopoiesis.utils.Keys;
 import dev.sefiraat.netheopoiesis.utils.ParticleUtils;
@@ -41,31 +69,6 @@ import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.Color;
-import org.bukkit.Location;
-import org.bukkit.Material;
-import org.bukkit.Particle;
-import org.bukkit.block.Block;
-import org.bukkit.block.BlockFace;
-import org.bukkit.entity.HumanEntity;
-import org.bukkit.entity.Player;
-import org.bukkit.event.block.BlockBreakEvent;
-import org.bukkit.event.block.BlockPlaceEvent;
-import org.bukkit.inventory.ItemStack;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-import javax.annotation.OverridingMethodsMustInvokeSuper;
-import javax.annotation.ParametersAreNonnullByDefault;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.UUID;
-import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * This class is used to define a Seed item that will grow as a {@link NetherPlant}

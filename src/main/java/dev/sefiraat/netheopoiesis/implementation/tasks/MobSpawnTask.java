@@ -1,11 +1,7 @@
 package dev.sefiraat.netheopoiesis.implementation.tasks;
 
-import dev.sefiraat.netheopoiesis.Purification;
-import dev.sefiraat.netheopoiesis.api.mobs.MobCapType;
-import dev.sefiraat.netheopoiesis.api.mobs.RandomSpawn;
-import dev.sefiraat.netheopoiesis.managers.MobManager;
-import dev.sefiraat.netheopoiesis.utils.WorldUtils;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.RandomizedSet;
+import javax.annotation.Nonnull;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -17,7 +13,12 @@ import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import javax.annotation.Nonnull;
+import dev.sefiraat.netheopoiesis.Purification;
+import dev.sefiraat.netheopoiesis.api.mobs.MobCapType;
+import dev.sefiraat.netheopoiesis.api.mobs.RandomSpawn;
+import dev.sefiraat.netheopoiesis.managers.MobManager;
+import dev.sefiraat.netheopoiesis.utils.WorldUtils;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.RandomizedSet;
 
 /**
  * This Runnable is used to spawn additional mobs in the Nether when above a certain

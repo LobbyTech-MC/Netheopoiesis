@@ -1,10 +1,11 @@
 package dev.sefiraat.netheopoiesis.api.plant;
 
-import org.bukkit.inventory.ItemStack;
+import java.util.Set;
 
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
-import java.util.Set;
+
+import org.bukkit.inventory.ItemStack;
 
 /**
  * This class collates the various classes used to describe the way a plant grows

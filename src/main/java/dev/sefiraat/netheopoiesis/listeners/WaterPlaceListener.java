@@ -1,7 +1,7 @@
 package dev.sefiraat.netheopoiesis.listeners;
 
-import dev.sefiraat.netheopoiesis.Purification;
-import dev.sefiraat.netheopoiesis.utils.WorldUtils;
+import javax.annotation.Nonnull;
+
 import org.bukkit.GameMode;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -14,7 +14,8 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 
-import javax.annotation.Nonnull;
+import dev.sefiraat.netheopoiesis.Purification;
+import dev.sefiraat.netheopoiesis.utils.WorldUtils;
 
 /**
  * The purpose of this listener is to allow players to place water buckets in the Nether

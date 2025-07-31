@@ -1,15 +1,17 @@
 package dev.sefiraat.netheopoiesis.implementation;
 
+import java.util.stream.Stream;
+
+import javax.annotation.Nonnull;
+
+import org.bukkit.Color;
+import org.bukkit.Material;
+
 import dev.sefiraat.netheopoiesis.utils.ItemStackUtils;
 import dev.sefiraat.netheopoiesis.utils.Skulls;
 import dev.sefiraat.netheopoiesis.utils.Theme;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder;
-import org.bukkit.Color;
-import org.bukkit.Material;
-
-import javax.annotation.Nonnull;
-import java.util.stream.Stream;
 
 /**
  * Final class used to store and initialise the {@link SlimefunItemStack}s used in the addon

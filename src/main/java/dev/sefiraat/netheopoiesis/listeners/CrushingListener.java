@@ -1,8 +1,7 @@
 package dev.sefiraat.netheopoiesis.listeners;
 
-import dev.sefiraat.netheopoiesis.api.RecipeTypes;
-import dev.sefiraat.netheopoiesis.api.interfaces.WorldCrushable;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import javax.annotation.Nonnull;
+
 import org.bukkit.entity.Item;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -10,7 +9,9 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.inventory.ItemStack;
 
-import javax.annotation.Nonnull;
+import dev.sefiraat.netheopoiesis.api.RecipeTypes;
+import dev.sefiraat.netheopoiesis.api.interfaces.WorldCrushable;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 
 /**
  * The purpose of this listener is to drop registered items when breaking the specified vanilla

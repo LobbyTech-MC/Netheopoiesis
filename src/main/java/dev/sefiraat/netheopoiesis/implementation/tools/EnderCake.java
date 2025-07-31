@@ -1,5 +1,20 @@
 package dev.sefiraat.netheopoiesis.implementation.tools;
 
+import java.util.Optional;
+
+import javax.annotation.Nonnull;
+
+import org.bukkit.Bukkit;
+import org.bukkit.Color;
+import org.bukkit.Location;
+import org.bukkit.Material;
+import org.bukkit.Particle;
+import org.bukkit.World;
+import org.bukkit.block.Block;
+import org.bukkit.block.data.type.Cake;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+
 import dev.sefiraat.netheopoiesis.Purification;
 import dev.sefiraat.netheopoiesis.implementation.Stacks;
 import dev.sefiraat.netheopoiesis.utils.ParticleUtils;
@@ -13,19 +28,6 @@ import io.github.thebusybiscuit.slimefun4.core.handlers.BlockUseHandler;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.Slimefun.Objects.handlers.BlockTicker;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
-import org.bukkit.Bukkit;
-import org.bukkit.Color;
-import org.bukkit.Location;
-import org.bukkit.Material;
-import org.bukkit.Particle;
-import org.bukkit.World;
-import org.bukkit.block.Block;
-import org.bukkit.block.data.type.Cake;
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
-
-import javax.annotation.Nonnull;
-import java.util.Optional;
 
 /**
  * The EnderCake will teleport a player to the end when right-clicked (assuming the purification level

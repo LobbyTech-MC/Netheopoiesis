@@ -1,11 +1,10 @@
 package dev.sefiraat.netheopoiesis.api.plant;
 
-import dev.sefiraat.netheopoiesis.api.items.NetherSeed;
-import dev.sefiraat.netheopoiesis.api.plant.Growth;
-import dev.sefiraat.netheopoiesis.implementation.Stacks;
-
 import java.util.Collections;
 import java.util.Set;
+
+import dev.sefiraat.netheopoiesis.api.items.NetherSeed;
+import dev.sefiraat.netheopoiesis.implementation.Stacks;
 
 /**
  * This class is used to contain the most common combinations of possible placements for plants

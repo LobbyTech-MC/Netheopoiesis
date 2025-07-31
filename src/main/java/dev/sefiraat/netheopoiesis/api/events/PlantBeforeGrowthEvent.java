@@ -1,13 +1,14 @@
 package dev.sefiraat.netheopoiesis.api.events;
 
-import dev.sefiraat.netheopoiesis.api.items.NetherSeed;
+import javax.annotation.Nonnull;
+import javax.annotation.ParametersAreNonnullByDefault;
+
 import org.bukkit.Location;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
-import javax.annotation.Nonnull;
-import javax.annotation.ParametersAreNonnullByDefault;
+import dev.sefiraat.netheopoiesis.api.items.NetherSeed;
 
 /**
  * This event is fired before a plant grows a stage. This event can be cancelled to stop growth

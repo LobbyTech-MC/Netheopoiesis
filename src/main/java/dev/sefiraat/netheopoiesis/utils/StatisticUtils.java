@@ -1,11 +1,13 @@
 package dev.sefiraat.netheopoiesis.utils;
 
-import dev.sefiraat.netheopoiesis.Netheopoiesis;
-import org.bukkit.entity.Player;
-
-import javax.annotation.Nonnull;
 import java.text.MessageFormat;
 import java.util.UUID;
+
+import javax.annotation.Nonnull;
+
+import org.bukkit.entity.Player;
+
+import dev.sefiraat.netheopoiesis.Netheopoiesis;
 
 public final class StatisticUtils {
 

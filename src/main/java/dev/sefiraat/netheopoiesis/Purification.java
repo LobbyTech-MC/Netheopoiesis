@@ -1,16 +1,19 @@
 package dev.sefiraat.netheopoiesis;
 
-import com.google.common.base.Preconditions;
-import dev.sefiraat.netheopoiesis.utils.WorldUtils;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.ChunkPosition;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
+import javax.annotation.Nonnull;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Chunk;
 import org.bukkit.block.Block;
 
-import javax.annotation.Nonnull;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
+import com.google.common.base.Preconditions;
+
+import dev.sefiraat.netheopoiesis.utils.WorldUtils;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.ChunkPosition;
 
 public class Purification {
 

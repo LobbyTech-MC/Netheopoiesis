@@ -1,13 +1,14 @@
 package dev.sefiraat.netheopoiesis.api.items;
 
-import dev.sefiraat.netheopoiesis.Netheopoiesis;
-import dev.sefiraat.netheopoiesis.api.plant.GrowthStages;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import org.bukkit.inventory.ItemStack;
-
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import javax.annotation.OverridingMethodsMustInvokeSuper;
+
+import org.bukkit.inventory.ItemStack;
+
+import dev.sefiraat.netheopoiesis.Netheopoiesis;
+import dev.sefiraat.netheopoiesis.api.plant.GrowthStages;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 
 /**
  * This plant can be harvested by right-clicking with a {@link dev.sefiraat.netheopoiesis.implementation.tools.HarvestingTool}

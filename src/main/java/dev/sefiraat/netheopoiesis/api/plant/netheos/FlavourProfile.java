@@ -1,11 +1,12 @@
 package dev.sefiraat.netheopoiesis.api.plant.netheos;
 
-import org.jetbrains.annotations.Unmodifiable;
-
-import javax.annotation.Nonnull;
 import java.util.Collections;
 import java.util.EnumMap;
 import java.util.Map;
+
+import javax.annotation.Nonnull;
+
+import org.jetbrains.annotations.Unmodifiable;
 
 public class FlavourProfile {
 

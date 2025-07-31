@@ -1,5 +1,15 @@
 package dev.sefiraat.netheopoiesis.implementation.netheos;
 
+import java.util.Set;
+import java.util.stream.Collectors;
+
+import javax.annotation.Nonnull;
+import javax.annotation.ParametersAreNonnullByDefault;
+
+import org.bukkit.entity.Player;
+import org.bukkit.event.player.PlayerItemConsumeEvent;
+import org.bukkit.inventory.ItemStack;
+
 import dev.sefiraat.netheopoiesis.api.plant.netheos.Flavour;
 import dev.sefiraat.netheopoiesis.api.plant.netheos.FlavourProfile;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
@@ -8,14 +18,6 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.core.handlers.ItemConsumptionHandler;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.RandomizedSet;
-import org.bukkit.entity.Player;
-import org.bukkit.event.player.PlayerItemConsumeEvent;
-import org.bukkit.inventory.ItemStack;
-
-import javax.annotation.Nonnull;
-import javax.annotation.ParametersAreNonnullByDefault;
-import java.util.Set;
-import java.util.stream.Collectors;
 
 public class Paste extends SlimefunItem {
 

@@ -1,10 +1,11 @@
 package dev.sefiraat.netheopoiesis.api.plant.breeding;
 
-import dev.sefiraat.netheopoiesis.api.items.NetherSeed;
+import java.util.concurrent.ThreadLocalRandom;
 
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
-import java.util.concurrent.ThreadLocalRandom;
+
+import dev.sefiraat.netheopoiesis.api.items.NetherSeed;
 
 /**
  * This Enum holds the possible breeding possibilities available in the addon

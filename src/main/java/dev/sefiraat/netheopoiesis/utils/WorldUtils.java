@@ -1,11 +1,12 @@
 package dev.sefiraat.netheopoiesis.utils;
 
+import java.util.concurrent.ThreadLocalRandom;
+
+import javax.annotation.Nonnull;
+
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.entity.Entity;
-
-import javax.annotation.Nonnull;
-import java.util.concurrent.ThreadLocalRandom;
 
 public final class WorldUtils {
 

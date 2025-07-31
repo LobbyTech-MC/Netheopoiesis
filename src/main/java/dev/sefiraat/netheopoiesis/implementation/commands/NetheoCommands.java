@@ -1,5 +1,8 @@
 package dev.sefiraat.netheopoiesis.implementation.commands;
 
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
 import co.aikar.commands.BaseCommand;
 import co.aikar.commands.annotation.CommandAlias;
 import co.aikar.commands.annotation.CommandCompletion;
@@ -13,8 +16,6 @@ import dev.sefiraat.netheopoiesis.api.mobs.MobCapType;
 import dev.sefiraat.netheopoiesis.managers.MobManager;
 import dev.sefiraat.netheopoiesis.utils.TextUtils;
 import dev.sefiraat.netheopoiesis.utils.Theme;
-import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 
 @CommandAlias("netheopoiesis|netheo")
 public class NetheoCommands extends BaseCommand {

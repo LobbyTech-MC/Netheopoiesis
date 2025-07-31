@@ -1,8 +1,8 @@
 package dev.sefiraat.netheopoiesis.api.interfaces;
 
-import org.bukkit.event.block.BlockPlaceEvent;
-
 import javax.annotation.Nonnull;
+
+import org.bukkit.event.block.BlockPlaceEvent;
 
 public interface CustomPlacementBlock {
 

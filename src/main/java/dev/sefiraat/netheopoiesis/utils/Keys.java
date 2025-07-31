@@ -1,9 +1,10 @@
 package dev.sefiraat.netheopoiesis.utils;
 
-import dev.sefiraat.netheopoiesis.Netheopoiesis;
+import javax.annotation.Nonnull;
+
 import org.bukkit.NamespacedKey;
 
-import javax.annotation.Nonnull;
+import dev.sefiraat.netheopoiesis.Netheopoiesis;
 
 public final class Keys {
 

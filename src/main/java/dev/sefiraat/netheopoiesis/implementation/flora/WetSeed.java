@@ -1,14 +1,16 @@
 package dev.sefiraat.netheopoiesis.implementation.flora;
 
-import dev.sefiraat.netheopoiesis.api.items.NetherSeed;
-import io.github.thebusybiscuit.slimefun4.api.events.PlayerRightClickEvent;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import java.util.Optional;
+
+import javax.annotation.Nonnull;
+
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemStack;
 
-import javax.annotation.Nonnull;
-import java.util.Optional;
+import dev.sefiraat.netheopoiesis.api.items.NetherSeed;
+import io.github.thebusybiscuit.slimefun4.api.events.PlayerRightClickEvent;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 
 /**
  * This custom implementation of NetherSeed is used to allow a Right-click interaction to fill a bucket.

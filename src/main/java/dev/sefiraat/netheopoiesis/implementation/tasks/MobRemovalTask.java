@@ -1,7 +1,7 @@
 package dev.sefiraat.netheopoiesis.implementation.tasks;
 
-import dev.sefiraat.netheopoiesis.api.mobs.RandomSpawn;
-import dev.sefiraat.netheopoiesis.managers.MobManager;
+import java.util.UUID;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.World;
@@ -9,7 +9,8 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import java.util.UUID;
+import dev.sefiraat.netheopoiesis.api.mobs.RandomSpawn;
+import dev.sefiraat.netheopoiesis.managers.MobManager;
 
 /**
  * This Runnable is used to remove ManagedMobs if they have become invalid and/or there are no players around

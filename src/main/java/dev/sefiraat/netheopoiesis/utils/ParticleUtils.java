@@ -1,14 +1,15 @@
 package dev.sefiraat.netheopoiesis.utils;
 
-import org.bukkit.Location;
-import org.bukkit.Particle;
-import org.bukkit.entity.Entity;
-import org.bukkit.util.Vector;
+import java.util.concurrent.ThreadLocalRandom;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import javax.annotation.ParametersAreNonnullByDefault;
-import java.util.concurrent.ThreadLocalRandom;
+
+import org.bukkit.Location;
+import org.bukkit.Particle;
+import org.bukkit.entity.Entity;
+import org.bukkit.util.Vector;
 
 public final class ParticleUtils {
 

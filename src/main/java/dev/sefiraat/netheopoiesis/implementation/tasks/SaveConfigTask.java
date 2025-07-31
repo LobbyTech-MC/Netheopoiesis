@@ -1,7 +1,8 @@
 package dev.sefiraat.netheopoiesis.implementation.tasks;
 
-import dev.sefiraat.netheopoiesis.Netheopoiesis;
 import org.bukkit.scheduler.BukkitRunnable;
+
+import dev.sefiraat.netheopoiesis.Netheopoiesis;
 
 /**
  * This Runnable is used to periodically save any custom Configuration files in case

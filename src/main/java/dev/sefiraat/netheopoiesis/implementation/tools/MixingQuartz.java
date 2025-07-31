@@ -1,5 +1,21 @@
 package dev.sefiraat.netheopoiesis.implementation.tools;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.regex.Pattern;
+
+import javax.annotation.Nonnull;
+
+import org.bukkit.Location;
+import org.bukkit.NamespacedKey;
+import org.bukkit.World;
+import org.bukkit.entity.Entity;
+import org.bukkit.entity.Item;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
+
 import dev.sefiraat.netheopoiesis.api.plant.netheos.Flavour;
 import dev.sefiraat.netheopoiesis.api.plant.netheos.NetheoBalls;
 import dev.sefiraat.netheopoiesis.implementation.netheos.Paste;
@@ -13,20 +29,6 @@ import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun4.implementation.items.LimitedUseItem;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
-import org.bukkit.Location;
-import org.bukkit.NamespacedKey;
-import org.bukkit.World;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.Item;
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
-
-import javax.annotation.Nonnull;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.regex.Pattern;
 
 /**
  * The MixingQuartz is the manual method for converting {@link dev.sefiraat.netheopoiesis.implementation.netheos.Paste}
